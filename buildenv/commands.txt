@@ -1,4 +1,6 @@
 docker build buildenv -t myos-buildenv
 docker run --rm -it -v %cd%:/root/env myos-buildenv
 make build-x86_64
+exit
 qemu-system-x86_64 -L "C:\Program Files\qemu" -cdrom dist/x86_64/kernel.iso
+qemu-system-x86_64 -L "C:\Users\wanja\Documents\dev\lib\qemu" -cdrom dist/x86_64/kernel.iso
