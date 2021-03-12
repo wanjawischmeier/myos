@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build and run",
+            "command": "buildenv\\build.bat",
+            "args": [
+                ""
+            ],
+            "type": "shell",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
